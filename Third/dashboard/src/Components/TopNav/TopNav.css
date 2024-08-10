@@ -1,0 +1,81 @@
+.topNav-Main {
+  height: 100%;
+  width: 100%;
+  /* background-color: burlywood; */
+}
+.topNav-Content {
+  height: 100%;
+  width: 100%;
+}
+/* TopNav-Top starts */
+.topNav-Top {
+  display: flex;
+  /* background-color: azure; */
+  height: 8%;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.topNav-Top-Left {
+  display: flex;
+  gap: 2rem;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.topNav-Top-Menu-Btn {
+  padding: 0;
+  cursor: pointer;
+  /* background-color: grey; */
+}
+.topNav-Top-Menu-Btn > svg {
+  height: 23px;
+  width: auto;
+}
+.topNav-Top-SearchBar {
+  /* background-color: green; */
+  border: 1px solid grey;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 27px;
+  width: 248px;
+}
+.topNav-Top-SearchBar-Icon {
+  height: 100%;
+  width: 20%;
+  /* background-color: aqua; */
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.topNav-Top-SearchBar-Icon > svg {
+  height: 70%;
+  width: auto;
+}
+.topNav-Top-SearchBar-Input {
+  height: 100%;
+  width: 80%;
+  border: none;
+  padding: 1px;
+}
+.topNav-Top-UserProfile {
+  /* background-color: aquamarine; */
+}
+.SideNavBar-Left-User-Img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.SideNavBar-Left-User-Img img {
+  width: 100%;
+  object-fit: cover;
+}
+/* TopNav-Top ends */
+
+.topNav-Bottom {
+  background-color: rgb(119, 174, 174);
+  height: 92%;
+}
