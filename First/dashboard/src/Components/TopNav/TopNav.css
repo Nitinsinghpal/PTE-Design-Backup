@@ -1,0 +1,27 @@
+.topNav-Main{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+
+}
+.topNav-Content{
+    height: 100%;
+    width: 100%;
+}
+.topNav-Top{
+    display: flex;
+    background-color: azure;
+    height: 10%;
+}
+.topNav-Bottom{
+    background-color: rgb(119, 174, 174);
+    height: 90%;
+}
+.topNav-Top-Menu-Btn{
+padding: 3px;
+cursor: pointer;
+}
+.topNav-Top-Menu-Btn > svg{
+    height: 23px;
+    width: auto;
+}
