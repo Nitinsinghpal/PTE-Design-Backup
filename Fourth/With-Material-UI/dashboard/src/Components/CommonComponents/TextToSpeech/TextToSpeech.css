@@ -1,0 +1,29 @@
+.textToSpeech-Main{
+    height: 163px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.textToSpeech-Content{
+    height: 100%;
+    width: 250px;
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    border: 1px solid grey;
+}
+.textToSpeech-Volume{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+/* .textToSpeech-Volume-input{
+    width: 150px;
+} */
